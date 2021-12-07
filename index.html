@@ -7,6 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <link rel=stylesheet href="nftpreview.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,18 +20,39 @@
 </head>
 <body>
 
-  Equilibrium #3429
+<!--
+Frontend Mentor
+NFT Preview Card Component
+C Lewis
+clewisdev.com
+December 2021
+-->
 
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
+<main id="card"> 
   
-  Creation of Jules Wyvern
+  <img src="images/image-equilibrium.jpg" id="cube-img" alt="balanced crystal cube" width="450" height = "450">
 
-  <div class="attribution">
+  <h1 id="title">Equilibrium #3429</h1>
+
+  <h2 id="description">Our Equilibrium collection promotes balance and calm.</h2>
+
+  <div id="info">
+  <p id="price">0.041 ETH</p>
+  <p id="days">3 days left</p>
+  </div>
+
+  <hr>
+  
+  <footer id="footer">
+  <img src="images/image-avatar.png" id="avatar" alt="avatar" width="50" height="50">
+  <p id="creator">Creation of <div id="name">Jules Wyvern</div></p>
+  </footer>
+
+</main>  
+
+  <div class="attribution" role="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://clewisdev.com">C Lewis</a>.
   </div>
 </body>
 </html>
