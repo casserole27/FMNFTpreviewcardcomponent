@@ -11,6 +11,10 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 1.125rem;
     background: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 /*------ CARD STYLING ------*/
@@ -24,11 +28,12 @@ body {
     width: 475px;
     border-radius: 1rem;
     padding: 2rem;
-    position: absolute;
+    margin-top: 2rem;
+    /*position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
 
 /*------ FONT WEIGHTS ------*/
@@ -72,22 +77,32 @@ hr {
 
 /*------ FLEXBOX ------*/
 
-#info {
+#info-wrapper {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;    
+   
 }
 
-#price {
+#price-wrapper {
     display: flex;
+    align-items: center;
+    gap: .5rem;
 }
 
-#time {
+#time-wrapper {
     display: flex;
+    align-items: center;
+    gap: .5rem;
 }
+
 
 
 footer {
     display: flex;
+    align-items: center;
+    gap: .5rem;
+    
 }
 
 
