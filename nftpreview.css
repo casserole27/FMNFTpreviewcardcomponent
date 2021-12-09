@@ -16,7 +16,7 @@ body {
 /*------ CARD STYLING ------*/
 
 #cube-img {
-    align-items: center;
+    justify-items: center;
 }
 
 #card {
@@ -69,6 +69,27 @@ hr {
     border-radius: 50%;
     
 }
+
+/*------ FLEXBOX ------*/
+
+#info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#price {
+    display: flex;
+}
+
+#time {
+    display: flex;
+}
+
+
+footer {
+    display: flex;
+}
+
 
 
 
