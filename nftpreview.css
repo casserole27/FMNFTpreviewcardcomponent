@@ -9,7 +9,7 @@ December 2021
 
 body {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     background: hsl(217, 54%, 11%);
     margin: 0;
     padding: 0;
@@ -20,23 +20,38 @@ body {
 /*------ CARD STYLING ------*/
 
 #cube-img {
-    justify-items: center;
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
 }
 
 #card {
     background-color: hsl(216, 50%, 16%);
-    width: 475px;
+    width: 400px;
     border-radius: 1rem;
     padding: 2rem;
-    margin-top: 2rem;
-    /*position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);*/
+    margin-top: 3rem;
+    box-shadow: 0rem 1.5rem 1.5rem hsl(215, 55%, 8%);
 }
 
-/*------ FONT WEIGHTS ------*/
+hr {
+    margin-top: .25rem;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    margin-bottom: .5rem;
+}
+
+#creator {
+    margin-left: .5rem;
+}
+
+/*------ FONT SIZES AND WEIGHTS ------*/
+
+h1, h2 {
+    font-size: 1.25em;
+}
 
 h1, #price {
     font-weight: 600;
@@ -72,16 +87,16 @@ hr {
 #avatar {
     border: solid .15rem hsl(0, 0%, 100%);
     border-radius: 50%;
-    
 }
 
 /*------ FLEXBOX ------*/
 
 #info-wrapper {
+    margin-top: 0;
+    margin-bottom: .25rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;    
-   
+    justify-content: space-between;
 }
 
 #price-wrapper {
@@ -97,14 +112,11 @@ hr {
 }
 
 
-
 footer {
     display: flex;
     align-items: center;
     gap: .5rem;
-    
 }
-
 
 
 
